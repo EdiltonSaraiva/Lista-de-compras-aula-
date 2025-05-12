@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 3, 131);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+}
+
+.tabela{
+    border-collapse: collapse;
+    width: 500px;
+}
+
+.cabeçalho{
+    background-color: rgb(3, 3, 131);
+    color: white;
+    font-size: 22px;
+}
+
+.linha-par {
+    background-color: white;
+}
+
+.titulo, .celula{
+    border: 3px solid rgb(3, 3, 131);
+    font-size: 18px;
+    padding: 13px;
+}
+
+header{
+    image-rendering: optimizeQuality;
+    size: 10px;
+}
+
+.imagem{
+    width: 120px;
+    height: 120px;
+
+}
+
+
+
+
